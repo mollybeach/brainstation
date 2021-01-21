@@ -1,0 +1,180 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6,  blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+    font-size: 100%;
+    font-weight: 10%;
+	font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    vertical-align: baseline;
+}
+img.tinypic{
+    width:50px;
+    height:50px;
+    object-fit: contain;
+    padding-left: 3px;
+    padding-top: 5px;
+}
+img.ringcoffee{
+    width:1600px;
+    height:600px;
+    object-fit: contain;
+}
+a.header.headerlinks{
+    padding: 5px;
+}
+a.typelink{
+    color: #F7F7F7;
+}
+h5.menu-box{
+    background-color: #393939;
+    text-align:center;
+    width: 200px;
+    height:200px;
+    color: #FFF0ED;
+    font-size: xx-large;
+    position: absolute;
+    z-index: 0;
+}
+h1{
+ font-size: xx-large;
+ padding: 10px;
+}
+h3{ 
+    font-size: x-large;
+    padding:10px;
+}
+h4{
+    color:#5BACC3;
+}
+h5{
+    font-size: xx-large;
+    padding: 5px;
+}
+
+li.menu-link{
+    text-align:center;
+    font-size: 110%;
+    color:#FFF;
+}
+p{
+    font-style: italic;
+    padding-right: 65%;
+    color:#393939;
+}
+p.paragraph{
+    width: 300px;
+    height:100px;
+    padding: 0px;
+    margin: 0px;
+    text-align:center;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+div.partone{
+    text-align:center;
+    background-color: #FFF0ED;
+    width: 1550px;
+    height:400px;
+    color:#393939;
+    padding: 10px;
+}
+div.parttwo{
+    text-align:center;
+    background-color: #F7F7F7;
+    width: 1550px;
+    height:500px;
+    color:#393939;
+    padding: 15px; 
+}
+div.partthree{
+    text-align:center;
+    background-color: #FFF0ED;
+    width: 1550px;
+    height:400px;
+    color:#393939;
+}
+ol, ul {
+    list-style: none;
+    padding: 10px;
+    height: 100px;
+    background-color:#393939;
+    text-align:center;
+    color: #FFF;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*
+element{
+    font-family: 'Courier New', Courier, monospace;
+}
+nav{
+    position:relative;
+    margin:20px 30px 40px 50px;
+}
+nav ul{
+    list-style:none;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20;
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2;
+}
+.menu-genre{
+    font-family: 'Courier New', Courier, monospace;
+
+}
+h5{
+    border: 5px 0px 0px 0px;
+    padding: 5px;
+    background-color:#393939;
+}
+img{
+    width:400px;
+    object-fit: contain;
+}
+
+img.coffeecircle{
+   position:absolute;
+   z-index:0;
+   width:10px;
+   height: 10px;
+   object-fit: contain;
+   z-index: -1;
+   <img src="../assets/coffee-circle.jpg" class="ringcoffee"/>
+   
+}
+*/
