@@ -88,10 +88,6 @@
         vertical-align: baseline;
         display: inline-block;
     }
-    
-    html {
-        font-size: 60px;
-    }
     /* HTML5 display-role reset for older browsers */
     
     article,

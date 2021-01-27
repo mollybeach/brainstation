@@ -88,10 +88,9 @@
         vertical-align: baseline;
         display: inline-block;
     }
-    
-    * {
+    /* * {
         border: 1px solid red;
-    }
+    } 
     
     html {
         font-size: 60px;
@@ -109,7 +108,7 @@
     menu,
     nav,
     section {
-        display: block;
+        display: flex;
     }
     
     body {
@@ -133,7 +132,8 @@
         border-collapse: collapse;
         border-spacing: 0;
     }
-    /*NAVIGATION BAR*/
+    /*
+    NAVIGATION BAR
     
     .main-nav {
         background-color: #FFF0ED;
@@ -181,7 +181,7 @@
         height: 7rem;
     }
     /*************FIRST MAIN CONTAINER SECTION****************************/
-    
+    /*
     #coffee-defintion {
         margin-left: 10%;
     }
@@ -206,37 +206,34 @@
         width: 25%;
     }
     
-    a.button_text {
-        margin-left: 10%;
-        padding: 1em;
-        padding-left: 6.5em;
-        text-decoration: none;
-        margin-right: 10%;
-    }
-    
-    .main-container-two {
-        text-align: center;
-        background-color: #F7F7F7;
-        color: #393939;
-    }
-    
-    a.button_text,
+
+    /* a.button_text,
     .button_text {
         min-width: 11.25rem;
         max-width: 80%;
         background-color: #5BACC3;
         color: #FFF;
+         margin-left: 10%;
+        padding: 1em;
+        padding-left: 6.5em;
+        text-decoration: none;
+        margin-right: 10%;
+    }*/
+    
+    .main-container-two {
+        text-align: center;
+        background-color: #F7F7F7;
+        color: #393939;
+        flex-direction: column;
+        display: flex;
     }
     
     .card img {
-        min-height: 15rem;
-        min-width: 10rem;
-        max-height: 34.375rem;
+        height: 11.375rem;
     }
     
     .card div {
-        min-width: 20.625rem;
-        max-width: 21.875rem;
+        width: 20rem;
         height: 28rem;
         padding: 1.25rem;
         margin: 1.25rem;
@@ -244,19 +241,20 @@
         box-shadow: 0 0.313rem 0.563rem -0.063rem;
         box-shadow: rgba(0, 0, 0, 0.25);
         background-color: #FFF;
+        display: flex;
+        align-content: flex-start;
     }
-    /*div>img:first-of-type {
-    width: 15%;
-}*/
-    /*.main-container-two div>img:nth-child(-n+3) {
-    margin: 30%;
-    }*/
     
-    .card_text {
+    .card_base {
+        background-color: salmon;
+        justify-content: space-around;
+    }
+    
+    .card_text--blue {
         color: #5BACC3;
         font-weight: bold;
     }
-    /*DISCOUNT BANNER SECTION */
+    /*DISCOUNT BANNER SECTION 
     
     .discount-banner {
         min-width: 1.125rem;
@@ -273,7 +271,7 @@
     .bolded-words {
         font-weight: bolder;
     }
-    /*FOOTER SECTION */
+    /*FOOTER SECTION 
     
     .footer-container {
         margin: 1.25rem;
@@ -287,3 +285,5 @@
         min-width: 3.125rem;
         max-width: 7.5rem;
     }
+    
+    */
